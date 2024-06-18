@@ -41,13 +41,13 @@ const ListView = ({ items, getItems, deleteItem }: ListViewProps) => {
             />
 
             <div className='ml-6'>
-              <h3 className='font-semibold'>{item.name}"</h3>
+              <h3 className='font-semibold'>{item.name}&quot;</h3>
               <div className='text-sm'>
                 {formatPrice(item.price)}
                 <br />
                 Sold Units: {item.soldUnits}
                 <br />
-                <Badge className='mt-2' variant={"outline"}>
+                <Badge className='mt-2' variant='outline'>
                   Profit {formatPrice(item.soldUnits * item.price)}
                 </Badge>
               </div>
@@ -58,8 +58,7 @@ const ListView = ({ items, getItems, deleteItem }: ListViewProps) => {
             {/* Update Item */}
             <CreateUpdateItem getItems={getItems} itemToUpdate={item}>
               <Button className='w-8 h-8 p-0'>
-                {" "}
-                <SquarePen className='w-6 h-6' />{" "}
+                <SquarePen className='w-6 h-6' />
               </Button>
             </CreateUpdateItem>
 
