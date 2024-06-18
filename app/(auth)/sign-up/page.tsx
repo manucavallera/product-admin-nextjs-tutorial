@@ -28,7 +28,7 @@ const SignUp = () => {
 
           <div className='relative z-20 mt-auto'>
             <p className='text-lg'>
-              This web app helps me to make my life easy
+              {"This web app helps me to make my life easy"}
             </p>
             <footer className='text-sm'>Manu Dev</footer>
           </div>

@@ -115,7 +115,7 @@ const SignInform = () => {
 
       {/* Sign Up */}
       <p className='text-sm text-muted-foreground'>
-        Don't have an account?
+        {"Don't have an account? "}
         <Link
           href='/sign-up'
           className='underline text-muted-foreground underline-offset-4 hover:text-primary'
